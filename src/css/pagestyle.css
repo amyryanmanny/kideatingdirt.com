@@ -1,0 +1,9 @@
+body{
+text-align:justify;
+}
+
+.right{
+    float:right;
+    width:300px;
+    padding:20px;
+}
