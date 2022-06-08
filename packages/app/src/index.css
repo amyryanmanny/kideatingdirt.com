@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  color: maroon;
+  background-image: url('background.png');
+}
+a {
+  color:blue;
+}
+
+a:visited {
+  color:blue;
+}
+
+footer {
+  color:black;
+  position:absolute;
+  bottom:0;
+  width:95%;
+  height:40px;
+}
+
+.new {
+  color:red;
+}
+
+.right {
+  float:right;
+  width:300px;
+  padding:20px;
+}
+
+marquee {
+  -webkit-marquee: auto medium infinite scroll normal;
+}
