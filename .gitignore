@@ -103,5 +103,11 @@ dist
 # TernJS port file
 .tern-port
 
+# VS Code
+.vscode/
+
 # Downloads -> GitHub links
 downloads/
+
+# Typescript
+dist-types/

@@ -9,7 +9,7 @@
     "eject": "yarn workspace app eject"
   },
   "workspaces": [
-    "src/*"
+    "packages/*"
   ],
   "devDependencies": {
     "@types/jest": "^28.1.1",
