@@ -6,7 +6,32 @@ import {
 
 import { imgPath, Music } from "./components/helpers";
 
-const imgPath = (path: string) => `${process.env['PUBLIC_URL']}/pic/${path}`
+import {
+  SpoopyPage,
+  AlienPage,
+  AndyPage,
+  BonesawPage,
+  ChallengePage,
+  ChickenPage,
+  DoneskisPage,
+  DunyunRingsPage,
+  FaceManPage,
+  FishingWithDadPage,
+  FrenchPage,
+  HoroscopesPage,
+  JillSandwichPage,
+  DunListPage,
+  LiterallyRatchetPage,
+  MoneyPage,
+  PresidentalSlogansPage,
+  RiddlePage,
+  RipoffPage,
+  SatanClausPage,
+  SongLyricsPage,
+  FeatureSuggestionPage,
+  VladimirSnootinPage,
+  DictionaryPage,
+} from "./components/pages";
 
 function HomePage() {
   document.title = "home of the kid eating dirt";
@@ -24,39 +49,36 @@ function HomePage() {
       />
       <br/><br/>
 
-      <Link to="/bonesaw">bonesaw is ready</Link>
-
-      {/** Links
-        <a href="ripoff.html">wsu rda calculator</a><br/>
-        <a href="andy.html">andy are you okay</a><br/>
-        <a href="money.html">a good many almighty dollar advisories</a><br/>
-        <a href="horoscopes.html">ignoroscopes </a><br/>
-        <a href="fishingwithdad.html">fishing with dad</a><br/>
-        <br/>
-        <a href="alien.html">peaches alien regalia</a><br/>
-        <a href="challenge.html">clicking challenge</a><br/>
-        BONESAW
-        <a href="jillsandwich.html">jill sandwich</a><br/>
-        <a href="words.html">dictionary useful</a><br/>
-        <a href="satanclaus.html">satan claus</a><br/>
-        <a href="riddle.html">difficult riddles!</a><br/>
-        <a href="vladimirsnootin.html">resident of russia</a><br/>
-        <a href="suggestafeature.html">suggest a feature</a><br/>
-        <a href="presidentialslogans.html">presidential campaign slogans</a><br/>
-        <a href="listofdun.html">list of dun</a><br/>
-        <a href="dunyunrings.html">we're dunyun rings</a><br/>
-        <a href="2spoopy.html">2spoopy4me</a><br/>
-        <a href="faceman.html">face the truth</a><br/>
-        <a href="chicken.html">chicken</a><br/>
-        <a href="songlyrics.html">song lyrics</a><br/>
-      */}
-
+      <Link to="/ripoff">wsu rda calculator</Link>
+      <Link to="/andy">andy are you okay</Link>
+      <Link to="/money">a good many almighty dollar advisories</Link>
+      <Link to="/horoscopes">ignoroscopes </Link>
+      <Link to="/fishingwithdad">fishing with dad</Link>
       <br/><br/>
+
+      <Link to="/alien">peaches alien regalia</Link>
+      <Link to="/challenge">clicking challenge</Link>
+      <Link to="/bonesaw">bonesaw is ready</Link>
+      <Link to="/jillsandwich">jill sandwich</Link>
+      <Link to="/words">dictionary useful</Link>
+      <Link to="/satanclaus">satan claus</Link>
+      <Link to="/riddle">difficult riddles!</Link>
+      <Link to="/vladimirsnootin">resident of russia</Link>
+      <Link to="/suggestafeature">suggest a feature</Link>
+      <Link to="/presidentialslogans">presidential campaign slogans</Link>
+      <Link to="/listofdun">list of dun</Link>
+      <Link to="/dunyunrings">we're dunyun rings</Link>
+      <Link to="/2spoopy">2spoopy4me</Link>
+      <Link to="/faceman">face the truth</Link>
+      <Link to="/chicken">chicken</Link>
+      <Link to="/songlyrics">song lyrics</Link>
+      <br/><br/>
+
       <a href="https://github.com/ryanmanny">my github</a>
+      <br/><br/>
 
       {/** Donation tracker */}
 
-      <br/><br/>
       <div>
         all content copyright ryan manny 2014-2022 (unless i stole it from somewhere else)
       </div>
@@ -78,7 +100,30 @@ function App() {
     >
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/2spoopy" element={<SpoopyPage />} />
+        <Route path="/alien" element={<AlienPage />} />
+        <Route path="/andy" element={<AndyPage />} />
         <Route path="/bonesaw" element={<BonesawPage />} />
+        <Route path="/challenge" element={<ChallengePage />} />
+        <Route path="/chicken" element={<ChickenPage />} />
+        <Route path="/doneskis" element={<DoneskisPage />} />
+        <Route path="/dunyunrings" element={<DunyunRingsPage />} />
+        <Route path="/faceman" element={<FaceManPage />} />
+        <Route path="/fishingwithdad" element={<FishingWithDadPage />} />
+        <Route path="/french" element={<FrenchPage />} />
+        <Route path="/horoscopes" element={<HoroscopesPage />} />
+        <Route path="/jillsandwich" element={<JillSandwichPage />} />
+        <Route path="/listofdun" element={<DunListPage />} />
+        <Route path="/literallyratchet" element={<LiterallyRatchetPage />} />
+        <Route path="/money" element={<MoneyPage />} />
+        <Route path="/presidentialslogans" element={<PresidentalSlogansPage />} />
+        <Route path="/riddle" element={<RiddlePage />} />
+        <Route path="/ripoff" element={<RipoffPage />} />
+        <Route path="/satanclaus" element={<SatanClausPage />} />
+        <Route path="/songlyrics" element={<SongLyricsPage />} />
+        <Route path="/suggestafeature" element={<FeatureSuggestionPage />} />
+        <Route path="/vladimirsnootin" element={<VladimirSnootinPage />} />
+        <Route path="/words" element={<DictionaryPage />} />
       </Routes>
     </div>
   );
