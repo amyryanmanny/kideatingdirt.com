@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 
-function musicPath(path: string) {
-  return `${process.env['PUBLIC_URL']}/music/${path}`;
-}
+import { musicPath } from './';
 
 const VolumeIcon = () => <>&#128266;</>
 const VolumeMutedIcon = () => <>&#128264;</>

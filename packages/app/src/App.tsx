@@ -4,8 +4,7 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Music from "components/helpers/Music";
-import BonesawPage from "./components/pages/Bonesaw";
+import { imgPath, Music } from "./components/helpers";
 
 const imgPath = (path: string) => `${process.env['PUBLIC_URL']}/pic/${path}`
 
