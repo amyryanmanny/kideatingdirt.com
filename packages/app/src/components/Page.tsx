@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Page.css'
 import Music from './helpers/Music';
 
 function BackButton() {
-  return <a href="index.html">&laquoback</a>
+  return <Link to="/">&laquo;back</Link>
 }
 
 type Props = {
