@@ -4,16 +4,16 @@ import {
   Routes,
 } from "react-router-dom";
 
-import TemplatePage from "./components/pages/Template";
+import BonesawPage from "./components/pages/Bonesaw";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={
-          <Link to="/template">Template</Link>
+          <Link to="/bonesaw">Bonesaw</Link>
         } />
-        <Route path="/template" element={<TemplatePage />} />
+        <Route path="/bonesaw" element={<BonesawPage />} />
       </Routes>
     </div>
   );
