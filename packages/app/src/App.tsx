@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 
 import { imgPath, Music } from "./components/helpers";
-
 import {
   SpoopyPage,
   AlienPage,
