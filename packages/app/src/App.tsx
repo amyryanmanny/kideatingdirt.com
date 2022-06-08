@@ -61,13 +61,22 @@ function HomePage() {
       <div>
         all content copyright ryan manny 2014-2022 (unless i stole it from somewhere else)
       </div>
+      <br/>&nbsp;
     </>
   )
 }
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        position: 'relative',
+        width: '97%',
+        left: '50%',
+        transform: 'translate(-50%, 20px)',
+      }}
+    >
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/bonesaw" element={<BonesawPage />} />
