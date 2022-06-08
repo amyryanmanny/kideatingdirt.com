@@ -15,7 +15,7 @@ import {
   ChickenPage,
   DoneskisPage,
   DunyunRingsPage,
-  FaceManPage,
+  FacemanPage,
   FishingWithDadPage,
   FrenchPage,
   HoroscopesPage,
@@ -23,7 +23,7 @@ import {
   DunListPage,
   LiterallyRatchetPage,
   MoneyPage,
-  PresidentalSlogansPage,
+  PresidentialSlogansPage,
   RiddlePage,
   RipoffPage,
   SatanClausPage,
@@ -108,7 +108,7 @@ function App() {
         <Route path="/chicken" element={<ChickenPage />} />
         <Route path="/doneskis" element={<DoneskisPage />} />
         <Route path="/dunyunrings" element={<DunyunRingsPage />} />
-        <Route path="/faceman" element={<FaceManPage />} />
+        <Route path="/faceman" element={<FacemanPage />} />
         <Route path="/fishingwithdad" element={<FishingWithDadPage />} />
         <Route path="/french" element={<FrenchPage />} />
         <Route path="/horoscopes" element={<HoroscopesPage />} />
@@ -116,7 +116,7 @@ function App() {
         <Route path="/listofdun" element={<DunListPage />} />
         <Route path="/literallyratchet" element={<LiterallyRatchetPage />} />
         <Route path="/money" element={<MoneyPage />} />
-        <Route path="/presidentialslogans" element={<PresidentalSlogansPage />} />
+        <Route path="/presidentialslogans" element={<PresidentialSlogansPage />} />
         <Route path="/riddle" element={<RiddlePage />} />
         <Route path="/ripoff" element={<RipoffPage />} />
         <Route path="/satanclaus" element={<SatanClausPage />} />
