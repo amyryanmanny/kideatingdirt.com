@@ -8,7 +8,7 @@ const VolumeIcon = () => <>&#128266;</>
 const VolumeMutedIcon = () => <>&#128264;</>
 
 type Props = {
-  path: string | undefined;
+  path: string;
 }
 
 function Music(props: Props) {
@@ -22,10 +22,6 @@ function Music(props: Props) {
       audio.play();
     }
   }, [muted])
-
-  if (!props.path) {
-    return <></>
-  }
 
   const toggleMute = () => setMuted(!muted);
 

@@ -22,7 +22,7 @@ export function Page(props: Props) {
 
   return (
     <>
-      <Music path={props.music} />
+      {props.music && <Music path={props.music}/>}
       <BackButton />
       <br/><br/>
       {props.content}
