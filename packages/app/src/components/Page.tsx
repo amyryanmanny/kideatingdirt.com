@@ -21,11 +21,11 @@ export function Page(props: Props) {
   )
 
   return (
-    <body>
+    <>
       <Music path={props.music} />
       <BackButton />
       <br/><br/>
       {props.content}
-    </body>
+    </>
   );
 }
