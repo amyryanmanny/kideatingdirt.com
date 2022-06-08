@@ -53,7 +53,7 @@ function HomePage() {
       */}
 
       <br/><br/>
-      <Link to="https://github.com/ryanmanny">my github</Link>
+      <a href="https://github.com/ryanmanny">my github</a>
 
       {/** Donation tracker */}
 
