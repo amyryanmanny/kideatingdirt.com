@@ -1,15 +1,13 @@
 import { Page } from '../Page';
 
-function AlienPage() {
+export default function AlienPage() {
   return (
     <Page
       title="alien conspiracy"
       content={
-        <>
-          <pre>
-          NOTE 2/6/2017: This was the reward for winning the clicking challenge. I'm still not quite sure if it's possible
-          so here it is in its full glory. It was written in 2015 but the story must be told.
-          
+        <pre>
+          The story must be told.
+
               The year was 1947. The date was TONIGHT! An alien spaceship touched down near Roswell, New Mexico. 
               Although the government tried to cover up the incident, there were many witnesses. They haven't 
           been able to tell their stories because of various government laws, but these don't apply to Kideatingdirt.com
@@ -49,11 +47,8 @@ function AlienPage() {
           Q:  So was the rumbling from the UFO flying by?
           A:  Yeah probably. One of the flight attendants said it might have been that there turbelence. That just
               proves the government covered it up.
-          </pre>
-        </>
+        </pre>
       }
     />
   )
 }
-
-export default AlienPage;
