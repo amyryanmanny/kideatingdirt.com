@@ -1,53 +1,26 @@
-import AlienPage from "./Alien";
-import AndyPage from "./Andy";
-import BonesawPage from "./Bonesaw";
-import ChallengePage from "./Challenge";
-import ChickenPage from "./Chicken";
-import DictionaryPage from "./Dictionary";
-import DoneskisPage from "./Doneskis";
-import DunListPage from "./DunList";
-import DunyunRingsPage from "./DunyunRings";
-import FacemanPage from "./Faceman";
-import FeatureSuggestionPage from "./FeatureSuggestion";
-import FishingWithDadPage from "./FishingWithDad";
-import FrenchPage from "./French";
-import HoroscopesPage from "./Horoscopes";
-import JillSandwichPage from "./JillSandwich";
-import LiterallyRatchetPage from "./LiterallyRatchet";
-import MoneyPage from "./Money";
-import PresidentialSlogansPage from "./PresidentialSlogans";
-import RiddlePage from "./Riddle";
-import RipoffPage from "./Ripoff";
-import SatanClausPage from "./SatanClaus";
-import SongLyricsPage from "./SongLyrics";
-import SpoopyPage from "./SpoopyPage";
-import TemplatePage from "./Template";
-import VladimirSnootinPage from "./VladimirSnootin";
+export { default as TemplatePage } from "./Template";
 
-export {
-  AlienPage,
-  AndyPage,
-  BonesawPage,
-  ChallengePage,
-  ChickenPage,
-  DictionaryPage,
-  DoneskisPage,
-  DunListPage,
-  DunyunRingsPage,
-  FacemanPage,
-  FeatureSuggestionPage,
-  FishingWithDadPage,
-  FrenchPage,
-  HoroscopesPage,
-  JillSandwichPage,
-  LiterallyRatchetPage,
-  MoneyPage,
-  PresidentialSlogansPage,
-  RiddlePage,
-  RipoffPage,
-  SatanClausPage,
-  SongLyricsPage,
-  SpoopyPage,
-  TemplatePage,
-  VladimirSnootinPage,
-}
+export { default as AlienPage } from "./Alien";
+export { default as AndyPage } from "./Andy";
+export { default as BonesawPage } from "./Bonesaw";
+export { default as ChallengePage } from "./Challenge";
+// export { default as ChickenPage } from "./Chicken";
+// export { default as DictionaryPage } from "./Dictionary";
+// export { default as DoneskisPage } from "./Doneskis";
+// export { default as DunListPage } from "./DunList";
+// export { default as DunyunRingsPage } from "./DunyunRings";
+// export { default as FacemanPage } from "./Faceman";
+// export { default as FeatureSuggestionPage } from "./FeatureSuggestion";
+// export { default as FishingWithDadPage } from "./FishingWithDad";
+// export { default as FrenchPage } from "./French";
+// export { default as HoroscopesPage } from "./Horoscopes";
+// export { default as JillSandwichPage } from "./JillSandwich";
+// export { default as LiterallyRatchetPage } from "./LiterallyRatchet";
+// export { default as MoneyPage } from "./Money";
+// export { default as PresidentialSlogansPage } from "./PresidentialSlogans";
+// export { default as RiddlePage } from "./Riddle";
+// export { default as RipoffPage } from "./Ripoff";
+// export { default as SatanClausPage } from "./SatanClaus";
+// export { default as SongLyricsPage } from "./SongLyrics";
+// export { default as SpoopyPage } from "./SpoopyPage";
+// export { default as VladimirSnootinPage } from "./VladimirSnootin";
