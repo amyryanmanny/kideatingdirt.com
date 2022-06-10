@@ -1,3 +1,3 @@
-# kideatingdirt.com
+# kideatingdirt.com: Director's Cut - Dual Shock Edition
 
-Director's Cut - Dual Shock Edition
+The kid is back, and he's hungry
