@@ -1,6 +1,6 @@
 import { Page } from '../Page';
 
-function BonesawPage() {
+export default function BonesawPage() {
   return (
     <Page
       title="bonesaw is ready"
@@ -11,5 +11,3 @@ function BonesawPage() {
     />
   )
 }
-
-export default BonesawPage;

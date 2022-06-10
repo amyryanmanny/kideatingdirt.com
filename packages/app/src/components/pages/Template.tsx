@@ -1,6 +1,7 @@
 import { Page } from '../Page';
+// import { imgPath } from '../helpers';
 
-function TemplatePage() {
+export default function TemplatePage() {
   return (
     <Page
       title=""
@@ -10,5 +11,3 @@ function TemplatePage() {
     />
   )
 }
-
-export default TemplatePage;

@@ -1,7 +1,7 @@
 import { Page } from '../Page';
 import { imgPath } from '../helpers';
 
-function AndyPage() {
+export default function AndyPage() {
   return (
     <Page
       title="andy are you okay"
@@ -16,5 +16,3 @@ function AndyPage() {
     />
   )
 }
-
-export default AndyPage;
