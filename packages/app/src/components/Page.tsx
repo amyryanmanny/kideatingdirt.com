@@ -1,12 +1,15 @@
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import './Page.css'
 import Music from './media/Music';
 
 function BackButton() {
-  return <Link to="/">&laquo;back</Link>
-}
+  const navigate = useNavigate();
+  return (
+    <a href="#" onClick={() => navigate(-1)}>&laquo;back</a>
+  )
+};
 
 type Props = {
   title: string;
