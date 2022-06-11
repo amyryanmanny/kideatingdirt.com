@@ -27,6 +27,14 @@ a, a:visited {
   color: blue;
 }
 
+.App {
+  position: relative;
+  width: 97%;
+  left: 50%;
+  transform: translate(-50%, 20px);
+}
+}
+
 footer {
   color: black;
   position: absolute;

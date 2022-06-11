@@ -59,16 +59,7 @@ function HomePage() {
 }
 
 export default function App() {
-  return (
-    <div
-      className="App"
-      style={{
-        position: 'relative',
-        width: '97%',
-        left: '50%',
-        transform: 'translate(-50%, 20px)',
-      }}
-    >
+    <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
 
