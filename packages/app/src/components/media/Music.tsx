@@ -9,7 +9,7 @@ type Props = {
   path: string;
 }
 
-function Music(props: Props) {
+export default function Music(props: Props) {
   const [muted, setMuted] = useState(true);
 
   useEffect(() => {
@@ -40,5 +40,3 @@ function Music(props: Props) {
     </>
   )
 }
-
-export default Music;
