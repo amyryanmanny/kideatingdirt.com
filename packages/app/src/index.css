@@ -23,7 +23,7 @@ body {
   background-image: url('background.png');
 }
 
-a a:visited {
+a, a:visited {
   color: blue;
 }
 
