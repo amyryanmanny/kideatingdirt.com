@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { musicPath } from './';
+import { musicPath } from '.';
 
 const VolumeIcon = () => <>&#128266;</>
 const VolumeMutedIcon = () => <>&#128264;</>

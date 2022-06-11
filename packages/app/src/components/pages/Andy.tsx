@@ -1,5 +1,5 @@
 import { Page } from '../Page';
-import { imgPath } from '../helpers';
+import { imgPath } from '../media';
 
 export default function AndyPage() {
   return (

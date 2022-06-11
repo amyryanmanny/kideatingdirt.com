@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Page.css'
-import Music from './helpers/Music';
+import Music from './media/Music';
 
 function BackButton() {
   return <Link to="/">&laquo;back</Link>

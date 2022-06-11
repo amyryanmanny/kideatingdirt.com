@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 
 import * as Pages from "./components/pages";
-import { imgPath, Music } from "./components/helpers";
+import { imgPath, Music } from "./components/media";
 
 
 function HomePage() {
