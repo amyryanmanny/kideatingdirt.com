@@ -24,7 +24,7 @@ function HomePage() {
       <Link to="/andy">andy are you okay</Link><br/>
       <Link to="/money">a good many almighty dollar advisories</Link><br/>
       <Link to="/horoscopes">ignoroscopes </Link><br/>
-      <Link to="/fishingwithdad">fishing with dad</Link><br/>
+      <Link to="/fishingwithdad">fishing with dad</Link>
       <br/><br/>
 
       <Link to="/alien">peaches alien regalia</Link><br/>
@@ -42,7 +42,7 @@ function HomePage() {
       <Link to="/2spoopy">2spoopy4me</Link><br/>
       <Link to="/faceman">face the truth</Link><br/>
       <Link to="/chicken">chicken</Link><br/>
-      <Link to="/songlyrics">song lyrics</Link><br/>
+      <Link to="/songlyrics">song lyrics</Link>
       <br/><br/>
 
       <a href="https://github.com/ryanmanny">my github</a>
@@ -53,7 +53,7 @@ function HomePage() {
       <div>
         all content copyright ryan manny 2014-2022 (unless i stole it from somewhere else)
       </div>
-      <br/>&nbsp;
+      <br/>
     </>
   )
 }
