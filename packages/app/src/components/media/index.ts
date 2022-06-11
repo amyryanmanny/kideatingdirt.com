@@ -4,4 +4,5 @@ export const imgPath = (path: string) =>
 export const musicPath = (path: string) =>
   `${process.env['PUBLIC_URL']}/music/${path}`
 
+export { default as Background } from "./Background";
 export { default as Music } from "./Music";

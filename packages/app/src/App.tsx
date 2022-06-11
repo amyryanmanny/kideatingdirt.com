@@ -1,7 +1,16 @@
-import { Link, Route, Routes } from "react-router-dom";
+import {
+  useLocation,
+  Link,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 import * as Pages from "./components/pages";
-import { imgPath, Music } from "./components/media";
+import {
+  imgPath,
+  Background,
+  Music,
+} from "./components/media";
 
 
 function HomePage() {
@@ -59,6 +68,10 @@ function HomePage() {
 }
 
 export default function App() {
+  const location = useLocation();
+
+  return (<>
+    {location.pathname == "/" && <Background path="dirt.png"/>}
     <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -89,5 +102,5 @@ export default function App() {
         {/**<Route path="/words" element={<Pages.DictionaryPage/>}/> */}
       </Routes>
     </div>
-  );
+  </>);
 }

@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  color: maroon;
   margin: 0;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -16,11 +17,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-body {
-  color: maroon;
-  background-image: url('background.png');
 }
 
 a, a:visited {
