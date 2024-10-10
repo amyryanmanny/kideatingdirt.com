@@ -3,7 +3,7 @@ export { default as TemplatePage } from "./Template";
 export { default as AlienPage } from "./Alien";
 export { default as AndyPage } from "./Andy";
 export { default as BonesawPage } from "./Bonesaw";
-export { default as ChallengePage } from "./Challenge";
+// export { default as ChallengePage } from "./Challenge";
 // export { default as ChickenPage } from "./Chicken";
 // export { default as DictionaryPage } from "./Dictionary";
 // export { default as DoneskisPage } from "./Doneskis";

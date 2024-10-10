@@ -71,7 +71,7 @@ export default function App() {
   const location = useLocation();
 
   return (<>
-    {location.pathname == "/" && <Background path="dirt.png"/>}
+    {location.pathname === "/" && <Background path="dirt.png"/>}
     <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -80,7 +80,7 @@ export default function App() {
         <Route path="/alien" element={<Pages.AlienPage />} />
         <Route path="/andy" element={<Pages.AndyPage />} />
         <Route path="/bonesaw" element={<Pages.BonesawPage />} />
-        <Route path="/challenge" element={<Pages.ChallengePage />} />
+        {/* <Route path="/challenge" element={<Pages.ChallengePage />} /> */}
         {/**<Route path="/chicken" element={<Pages.ChickenPage />} /> */}
         {/**<Route path="/doneskis" element={<Pages.DoneskisPage/>}/> */}
         {/**<Route path="/dunyunrings" element={<Pages.DunyunRingsPage/>}/> */}
