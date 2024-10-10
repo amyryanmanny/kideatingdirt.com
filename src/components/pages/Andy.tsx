@@ -9,7 +9,7 @@ export default function AndyPage() {
         <>
           <a href="https://github.com/HMcCullough/OFallonStein">link</a>
           <br/>
-          <img src={imgPath("andy.png")}/>
+          <img src={imgPath("andy_head.png")}/>
         </>
       }
       music="andy.mp3"
