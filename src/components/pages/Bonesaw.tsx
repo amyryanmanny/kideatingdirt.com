@@ -4,10 +4,9 @@ export default function BonesawPage() {
   return (
     <Page
       title="bonesaw is ready"
-      content={
-        <>BONESAW IS READY</>
-      }
       music="bonesaw.mp3"
-    />
+    >
+      BONESAW IS READY
+    </Page>
   )
 }

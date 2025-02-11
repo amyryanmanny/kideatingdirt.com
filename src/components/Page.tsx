@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import './Page.css'
@@ -12,8 +12,8 @@ function BackButton() {
 };
 
 type Props = {
+  children: ReactNode;
   title: string;
-  content: JSX.Element;
   music?: string;
 }
 
@@ -28,7 +28,7 @@ export function Page(props: Props) {
       {props.music && <Music path={props.music}/>}
       <BackButton />
       <br/><br/>
-      {props.content}
+      {props.children}
     </>
   );
 }

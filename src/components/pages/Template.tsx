@@ -3,11 +3,8 @@ import { Page } from '../Page';
 
 export default function TemplatePage() {
   return (
-    <Page
-      title=""
-      content={
-        <>content</>
-      }
-    />
+    <Page title="Template">
+      content
+    </Page>
   )
 }
