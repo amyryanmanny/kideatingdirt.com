@@ -60,7 +60,8 @@ function HomePage() {
       {/** Donation tracker */}
 
       <div>
-        all content copyright amy ryan manny 2011-{new Date().getFullYear()} (unless i stole it from somewhere else)
+        all content copyright amy ryan manny 2011-{new Date().getFullYear()}<br/>
+        (unless i stole it from somewhere else)
       </div>
       <br/>
     </>
