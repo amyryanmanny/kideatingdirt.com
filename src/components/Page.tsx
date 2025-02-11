@@ -14,6 +14,7 @@ function BackButton() {
 type Props = {
   children: ReactNode;
   title: string;
+  byline?: string;
   music?: string;
 }
 
@@ -23,11 +24,19 @@ export function Page(props: Props) {
     [props.title],
   )
 
+  const byline = (
+    <>
+      <p className="byline" style={{'marginLeft': '1em'}}><i>{props.byline}</i></p>
+      <br/>
+    </>
+  );
+
   return (
     <>
       {props.music && <Music path={props.music}/>}
       <BackButton />
       <br/><br/>
+      {props.byline && byline}
       {props.children}
     </>
   );

@@ -54,13 +54,13 @@ function HomePage() {
       <Link to="/songlyrics">song lyrics</Link>
       <br/><br/>
 
-      <a href="https://github.com/ryanmanny">my github</a>
+      <a href="https://github.com/amyryanmanny">my github</a>
       <br/><br/>
 
       {/** Donation tracker */}
 
       <div>
-        all content copyright ryan manny 2014-2022 (unless i stole it from somewhere else)
+        all content copyright amy ryan manny 2011-{new Date().getFullYear()} (unless i stole it from somewhere else)
       </div>
       <br/>
     </>
@@ -81,7 +81,7 @@ export default function App() {
         <Route path="/andy" element={<Pages.AndyPage />} />
         <Route path="/bonesaw" element={<Pages.BonesawPage />} />
         {/* <Route path="/challenge" element={<Pages.ChallengePage />} /> */}
-        {/**<Route path="/chicken" element={<Pages.ChickenPage />} /> */}
+        <Route path="/chicken" element={<Pages.ChickenPage />} />
         {/**<Route path="/doneskis" element={<Pages.DoneskisPage/>}/> */}
         {/**<Route path="/dunyunrings" element={<Pages.DunyunRingsPage/>}/> */}
         {/**<Route path="/faceman" element={<Pages.FacemanPage/>}/> */}
